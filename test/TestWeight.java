@@ -26,14 +26,15 @@ public class TestWeight {
     @Test
     public void testCalcWeight02() {
 
-        double actual = mc.calcWeight(130, 135);// kiszámoljuk előre több adattal, után megírjuk a tesztet kijavítva a számolt értékeket
+        double actual = mc.calcWeight(130, 135);// kiszámoljuk előre több adattal, után megírjuk a tesztet kijavítva a
+                                                // számolt értékeket
         double expected = 192.0939631220005;
         assertEquals(expected, actual);
     }
 
     @Test
     public void testCalcWeight03() {
-
+        //megjegyzés
         double actual = mc.calcWeight(150, 160);// még egy teszt
         double expected = 303.1068451629199;
         assertEquals(expected, actual);
